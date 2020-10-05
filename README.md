@@ -4,9 +4,9 @@ CRUD operation on MongoDB atlas are performed using this application
 ## Docker Deployment
 
 1. Build using Docker command:
-	docker build -t <docker-image-name>
+	docker build -t < docker-image-name > .
 2. Run using Docker command:
-	docker run it -p 5000:5000 <docker-image-name>
+	docker run it -p 5000:5000 < docker-image-name >
 
 ## How to access api
 
