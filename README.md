@@ -65,3 +65,6 @@ Go to the project directory and apply following commands
 	
 		curl -i -H "Content-Type: application/json" -X DELETE -d "{"brand_name":"jetson"}" http://127.0.0.1:5000/delete_documents
 
+## Result
+
+Result folder contains screenshots of input curl commands and output from mongodb atlas.
