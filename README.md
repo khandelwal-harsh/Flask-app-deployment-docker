@@ -11,6 +11,7 @@ CRUD operation on MongoDB atlas are performed using this application
 ## How to access api
 
 1. Read all the data from the data in MongoDB atlas.
+
 	curl -i -H "Content-Type: application/json" -X GET http://127.0.0.1:5000/show_all_document		
 
 2. Read specific data Ex: find the data whose brand_name = '?'.
