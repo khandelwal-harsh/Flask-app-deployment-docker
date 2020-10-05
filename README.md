@@ -3,10 +3,14 @@ CRUD operation on MongoDB atlas are performed using this application
 
 ## Docker Deployment
 
+Go to the project directory and apply following commands
+
 1. Build using Docker command:
-	docker build -t < docker-image-name > .
+	docker build -t <docker-image-name> .
+		Ex:- docker build flask-app .
 2. Run using Docker command:
-	docker run it -p 5000:5000 < docker-image-name >
+	docker run it -p 5000:5000 <docker-image-name>
+		Ex: docker run it -p 5000:5000 flask-app
 
 ## How to access api
 
