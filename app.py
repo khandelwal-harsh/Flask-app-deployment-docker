@@ -17,10 +17,10 @@ class JSONEncoder(json.JSONEncoder):
     def default(self, o):
 
     	"""
-		Returns
-		------
-		json
-			encoded json data
+	Returns
+	------
+	json
+		encoded json data
     	"""
 
         if isinstance(o, ObjectId):
@@ -28,8 +28,10 @@ class JSONEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, o)
 
 
-
+# Creating Client object for MongoDB by passing the authentication string to the MongoClient() method. 
 client = MongoClient('mongodb+srv://harsh-t1:greendeck-t1@cluster-1.owmx1.mongodb.net/<dbname>?retryWrites=true&w=majority')
+
+# creating records object for performing the CRUD operations.
 db = client.get_database('products')
 records = db.products_list
 
