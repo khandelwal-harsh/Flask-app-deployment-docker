@@ -22,8 +22,14 @@ Go to the project directory and apply following commands
 
 		curl -i -H "Content-Type: application/json" -X GET http://127.0.0.1:5000/show_all_document
 		
-Input and Output Results:
-[![Input-using-curl.png](https://i.postimg.cc/65QrF5Bs/Input-using-curl.png)](https://postimg.cc/XXTBCWZx)
+  	Input Screenshot:
+
+	[![Input-using-curl.png](https://i.postimg.cc/65QrF5Bs/Input-using-curl.png)](https://postimg.cc/XXTBCWZx)
+	
+	Output Screenshot:
+	
+	[![Output.png](https://i.postimg.cc/B6qLDM6W/Output.png)](https://postimg.cc/qt5vHcyQ)
+	
 
 2. Read specific data Ex: find the data whose brand_name = '?'.
 	
