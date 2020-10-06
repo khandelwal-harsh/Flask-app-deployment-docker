@@ -3,7 +3,7 @@ CRUD operation on MongoDB atlas are performed using this application
 
 ## Docker Deployment
 
-Go to the project directory and apply following commands
+Go to the project directory and apply following commands in your terminal.
 
 1. Build using Docker command:
 
