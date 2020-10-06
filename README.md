@@ -101,6 +101,3 @@ Go to the project directory and apply following commands
 	
 	[![Input-and-output-using-curl.png](https://i.postimg.cc/Vs0rtrsk/Input-and-output-using-curl.png)](https://postimg.cc/Z0Z5tqyG)
 
-## Result
-
-Result folder contains screenshots of input curl commands and output from mongodb atlas.
