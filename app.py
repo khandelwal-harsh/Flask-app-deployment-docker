@@ -59,7 +59,7 @@ def find_document():
 	resp = request.json
 
 	data = records.find_one(resp)
-	return json.dumps(d,cls = JSONEncoder)
+	return json.dumps(data,cls = JSONEncoder)
 
 
 @app.route('/show_all_document', methods=['GET'])
